@@ -1,0 +1,559 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>DESAFIO SEEDS FOR THE FUTURE 2017 UNB - HUAWEI</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Bruno Vieira Dutra">
+    <meta name="description" content="Site para divulgação do concurso seeds for the future huawei unb.">
+    <meta name="keywords" content="Seeds for the future, desafio, huawei, UnB">
+
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="img_ent_en_logo_ico.ico" type="image/x-icon"/>
+    <script type="text/javascript" rel="script" >
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-99103033-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript" rel="script">
+        var userAgent = navigator.userAgent.toLowerCase();
+        var devices = new Array('nokia','motorola','iphone','blackberry','sony','lg','htc_tattoo','samsung','symbian','SymbianOS','elaine','palm','series60','windows ce','android','obigo','netfront','openwave','mobilexplorer','operamini');
+        var url_redirect = 'index_mobile.html';
+        function mobiDetect(userAgent, devices) {
+            for(var i = 0; i < devices.length; i++) {
+                if (userAgent.search(devices[i]) > 0) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        if (mobiDetect(userAgent, devices)) {
+            window.location.href = url_redirect;
+        }
+    </script>
+
+
+    <style>
+
+        body {
+            font: 400 15px Lato, sans-serif;
+            line-height: 1.8;
+            color: #818181;
+        }
+        h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #303030;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        h4 {
+            font-size: 19px;
+            line-height: 1.375em;
+            color: #303030;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        .jumbotron {
+            background-color: #0F110E;
+            color: #fff;
+            padding: 100px 25px;
+            font-family: Montserrat, sans-serif;
+        }
+        .container-fluid {
+            padding: 60px 50px;
+        }
+        .bg-grey {
+            background-color: #f6f6f6;
+        }
+        .logo-small {
+            color: black;
+            font-size: 50px;
+        }
+        .logo {
+            color: black;
+            font-size: 200px;
+        }
+        .thumbnail {
+            padding: 0 0 15px 0;
+            border: none;
+            border-radius: 0;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 10px;
+        }
+        .carousel-control.right, .carousel-control.left {
+            background-image: none;
+            color: black;
+        }
+        .carousel-indicators li {
+            border-color: black;
+        }
+        .carousel-indicators li.active {
+            background-color: red;
+        }
+        .item h4 {
+            font-size: 19px;
+            line-height: 1.375em;
+            font-weight: 400;
+            font-style: italic;
+            margin: 70px 0;
+        }
+        .item span {
+            font-style: normal;
+        }
+        .panel {
+            border: 1px solid black;
+            border-radius:0 !important;
+            transition: box-shadow 0.5s;
+        }
+        .panel:hover {
+            box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+        }
+        .panel-footer .btn:hover {
+            border: 1px solid black;
+            background-color: #fff !important;
+            color: black;
+        }
+        .panel-heading {
+            color: #fff !important;
+            background-color: black !important;
+            padding: 25px;
+            border-bottom: 1px solid transparent;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        .panel-footer {
+            background-color: white !important;
+        }
+        .panel-footer h3 {
+            font-size: 32px;
+        }
+        .panel-footer h4 {
+            color: #aaa;
+            font-size: 14px;
+        }
+        .panel-footer .btn {
+            margin: 15px 0;
+            background-color: red;
+            color: #fff;
+        }
+        .navbar {
+            margin-bottom: 0;
+            background-color: #0F110E;
+            z-index: 9999;
+            border: 0;
+            font-size: 12px !important;
+            line-height: 1.42857143 !important;
+            letter-spacing: 4px;
+            border-radius: 0;
+            font-family: Montserrat, sans-serif;
+        }
+        .navbar li a, .navbar .navbar-brand {
+            color: #fff !important;
+        }
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: black !important;
+            background-color: gray !important;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: #fff !important;
+        }
+        footer .glyphicon {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+        .slideanim {visibility:hidden;}
+        .slide {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+            }
+            .btn-lg {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 150px;
+            }
+        }
+    </style>
+
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="android-icon-96x96.PNG" alt="HUAWEI/unb" width="114" height="44" usemap="#Map" />
+            <map name="Map" id="Map">
+                <area alt="" title="" href="http://www.unb.br" target="_blank" shape="rect" coords="6,6,70,38" />
+                <area alt="" title="" href="http://www.huawei.com/br"  target="_blank" shape="rect" coords="73,6,111,36" />
+            </map>
+
+        </div>
+        <div id="sidebar">
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#sftf">SEEDS FOR THE FUTURE</a></li>
+                <li><a href="#temas">TEMAS</a></li>
+                <li><a href="#inscricao">INSCRIÇÂO</a></li>
+                <li><a href="#aempresa">HUAWEI</a></li>
+                <li><a href="#organizacao">ORGANIZAÇÃO</a></li>
+                <li><a href="#apoio">APOIO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</nav>
+
+
+<div id="" class="jumbotron text-center">
+
+
+    <img id="imagemcentral" src="logo.png"  alt="HUAWEI">
+
+    <h1>
+    <p>DESAFIO<i> SEEDS FOR THE FUTURE </i>2017 <br>UNB - HUAWEI</p>
+    </h1>
+
+</div>
+
+
+
+<div id="sftf" class="container-fluid">
+
+
+<div class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-sm-4">
+            <br><br><br>
+            <img id="imagem2" src="lg1.png" width="350" height="189">
+
+        </div>
+        <div class="col-sm-8">
+            <h2>Programa <i>Seeds for the Future</i></h2><br>
+            <h4 align="justify"><strong>Objetivo:</strong> Contribuir para o desenvolvimento de TIC no Brasil, por meio do treinamento de jovens talentos. </h4>
+            <h4 align="justify"><strong>Premiação:</strong> O primeiro lugar será convidado a participar de um intercâmbio no período de 07 a 21 de julho de 2017 na
+                China, no âmbito do projeto <i><b>Seeds for the Future​</b></i>, sendo uma semana em Pequim para ambientação cultural e uma semana em Shenzhen para capacitação em Tecnologia da Informação e Comunicação (TIC).</h4>
+            <h4 align="justify"><strong>O Desafio:</strong> Desenvolver um projeto na área de Tecnologia de Informação e Comunicação (TIC) baseando-se em um dos temas propostos.</h4>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <div align="center" style="align-items: center">
+
+<div id="temas" class="container-fluid text-center" style="padding-left: 230px; align-items: center; align-content: center; ">
+    <div class="row slideanim">
+        <h2 style="padding-right: 180px">TEMAS</h2>
+        <div class="col-sm-5">
+            <span class="fa fa-signal fa-3x"></span>
+            <h4>Aplicativo Android de Medição de Potência de Sinal</h4>
+            <p>Desenvolver um aplicativo para medição de nível (potência) de sinal de redes celulares LTE.</p>
+        </div>
+        <div class="col-sm-5">
+            <span class="fa fa-rss fa-3x"></span>
+            <h4>Aplicativo Adroid de Medição de Taxa de Dados</h4>
+            <p>Desenvolver um aplicativo para medição de taxa de dados de redes celulares LTE.</p>
+        </div>
+        <div class="col-sm-5">
+            <span class="fa fa-globe fa-3x"></span>
+            <h4>Solução em IoT</h4>
+            <p>Protótipo IoT utilizando sensor(es) de temperatura, umidade, luminosidade e/ou corrente para análise e medição de consumo. Tal protótipo deverá ter integração com alguma plataforma web e/ou móvel.</p>
+        </div>
+        <div class="col-sm-5">
+            <span class="fa fa-wrench fa-3x" style="align-items: left"></span>
+            <h4 style="color:#303030;">Solução em Python</h4>
+            <p >Desenvolver um programa em Python para modelagem de convivência de futuras redes sem fio terra-espaço, baseado na recomendação ITU-R 619</p>
+
+        </div>
+        </div>
+        <br>
+
+
+    </div>
+
+        <div id="inscricao" class="container-fluid ">
+
+            <div class="row slideanim" >
+
+                <div class="col-sm-12 col-xs-12" >
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h1>Inscrição</h1>
+                        </div>
+                        <div class="panel-body">
+
+
+
+                            <p><strong>Pré-requisitos:<br></strong>Estudantes de graduação em engenharia de computação, elétrica, mecatrônica e redes de comunicação da UnB<br>Desejável estar cursando entre o 5º e o 8º semestre do fluxo do curso<br>Alto interesse em TIC<br> Inglês avançado ou fluente</p>
+                            <p><strong>Inscrições:<br></strong>Até 18/05/2017, às 23:59h (horário de Brasília).</p>
+                            <p><strong>Submissão do relatório:<br></strong> Até dia 22/05/2017, às 12:00h (horário de Brasília).</p>
+                            <p><strong>Premiação:<br></strong>Intercâmbio de duas semanas na China.</p>
+                            <p><strong>Mais informações:<br></strong> <a href="https://goo.gl/3OVeE2" target="_blank">Regulamento do Desafio.</p>
+                        </div>
+                        <div class="panel-footer">
+
+                            <a href="https://form.jotformz.com/71302836352653" target="_blank"><button class="btn btn-lg">Inscrever-se</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="geral" class="container-fluid ">
+            <img  src="geral.png" width="1150" style="margin-bottom: 30px">
+            <div class='embed-container' align="center"><iframe src='https://www.youtube.com/embed/XFRW1QjhoOE' frameborder='0' allowfullscreen style="width: 700px; height: 400px; align-items: center"></iframe></div>
+        </div>
+
+
+        <div id ="aempresa" class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2>HUAWEI</h2><br>
+            <h4 align="justify">A Huawei é uma empresa global de soluções de tecnologia da informação e comunicação (TIC) que tem a visão de enriquecer a vida por meio da comunicação. Impulsionada pela inovação centrada no cliente, a Huawei possui atualmente um dos mais completos portfólios de TIC do mercado, composto por soluções destinadas a operadoras de telecomunicações e empresas públicas e privadas, além de dispositivos para consumidores, como smartphones e dispositivos de banda larga móvel. Com 170.000 funcionários no mundo, a Huawei opera em mais de 170 países e regiões, atendendo um terço da população mundial. Em 2016, a receita global da
+                Huawei chegou a US$ 75,1 bilhões. Na última década, a Huawei tem investido, em média, 10% de seu fatuarmento global em pesquisa e desenvolvimento (P&D). Em 2016, o investimento em P&D atingiu mais de UD$ 11,0 bilhões. Além disso, a Huawei trabalha em colaboração com parceiros de mercado, academia e institutos de pesquisa.   </h4><br>
+            <p></p>
+
+        </div>
+        <div class="col-sm-4">
+            <br><br><br><br><br>
+            <a href="http://www.huawei.com/br" target="_blank"><img id="hw" src="ht.png" height="200" width="200"></a>
+        </div>
+    </div>
+    </div>
+	
+
+<div id="organizacao">
+    <br><br>
+    <h2>Organização Local</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+        <h4 align="center">
+
+        Alessandra Telles Bellomo de Farias - alessandratbfarias@ieee.org<br>
+        Bruno Vieira Dutra - bruno.dutra@ieee.org<br>
+        Calil Bento Queiroz - calil.queiroz@ieee.org<br>
+        Gustavo Viana Penido - gustavo.penido@ieee.org<br>
+        Josua Daniel Peña Carreño - Josua.d.pena@ieee.org<br>
+        Letícia Moreira Valle - leticia.valle@redes.unb.br<br>
+        Luiz Felipe Vilela Santos de Araujo - luiz.vs@ieee.org<br>
+        Rafael Silva Jorge - rafael.jorge09@ieee.org<br>
+        Professor Ugo Silva Dias - udias@unb.br<br><br>
+
+
+        </h4>
+    </div>
+
+
+
+
+    </div>
+	<div id ="ovencedor" class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-sm-8">
+			<br/><br/>
+            <h2>O VENCEDOR</h2><br>
+            <h4 align="justify">Parabéns ao aluno Cássio Fabius, ganhador do Desafio UnB-Huawei! Após uma manhã inteira de apresentações de artigos e protótipos, Cássio, aluno de Engenharia de Redes de Comunicação, foi selecionado entre as várias propostas de soluções para o intercâmbio de duas semanas na China. O prêmio foi anunciado na presença de representantes da Huawei Brasil, incluindo o VP de Relações Públicas, Steve Liuwei, além de representante da ANATEL e docentes na UnB.
+					Agradecemos o empenho a todos os alunos que participaram. E também ao apoio do ENE-FT e IEEE ComSoc UnB.</h4><br>
+            <p></p>
+
+        </div>
+        <div class="col-sm-4">
+            
+            <img id="hw" src="cs1.jpg" height="250" width="400">
+			<br/><br/>
+			 <img id="hw" src="cs2.jpg" height="250" width="400">
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="apoio" class="container-fluid text-center bg-grey" style="background: white" >
+    <h1>APOIO</h1><br>
+
+    <div class="row text-center slideanim" style="align-items: center">
+        <div class="col-sm-2"></div>
+
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://www.facebook.com/IEEEComSocCNBr" target="_blank"><img src="p.png" alt="com" width="400" height="490" style="padding-top: 12px"></a><br><br>
+
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="http://www.ene.unb.br/" target="_blank"><img src="ft.png" alt="FT" width="400" height="300" style="padding-top: 42px !important;"></a>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="http://sites.ieee.org/sb-comsocunb/" target="_blank"><img src="cs.png" alt="com" width="400" height="490" style="padding-top: 0"></a><br><br>
+
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://redes.unb.br/latitude" target="_blank""><img src="ltd.jpg" alt="ComSoc" width="400" height="500"></a>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Container (Contact Section) -->
+<h4>
+<div id="contato" class="container-fluid bg-grey" >
+    <h2 class="text-center">CONTATO</h2>
+    <div class="row" >
+        <div class="col-sm-6" style="font-family: Montserrat, sans-serif !important;;">
+            <br>
+           <!-- <p><i class="fa fa-facebook-official"><a href="https://www.facebook.com/desafiounbhuawei" target="_blank">  Desafio UnB-Huawei</a></i></p> -->
+            <p><i class="glyphicon glyphicon-home"><a href="https://www.facebook.com/comsocunb" target="_blank">  IEEE ComSoc UnB</a></i></p>
+            <br>
+            <p><i class="glyphicon glyphicon-home"><a href="https://www.facebook.com/IEEEComSocCNBr" target="_blank">  IEEE ComSoc UnB Centro-norte Brasil Chapter</a></i></p>
+        </div>
+        <div class="col-sm-6" style="align-content: center !important;"><br>
+            <p style="align-content: center !important;"><span class="glyphicon glyphicon-map-marker"></span> Universidade de Brasília, Brasília - DF</p>
+            <br>
+            <p><span class="glyphicon glyphicon-envelope"></span> seeds@redes.unb.br</p>
+        </div>
+
+    </div>
+</div>
+</h4>
+
+
+<footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Feito por <a href="https://www.linkedin.com/in/brunovdutra/">Bruno V. Dutra</a> membro <a href="http://sites.ieee.org/sb-comsocunb/" target="_blank">IEEE ComSoc UnB</a></p>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+
+        $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    })
+</script>
+
+</body>
+</html>
